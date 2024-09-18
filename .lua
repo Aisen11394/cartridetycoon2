@@ -8,8 +8,8 @@ local Section = Tab:CreateSection("Section Name")
 
 Section:Label("Label")
 
-Section:Button("Button", function()
-    
+Section:Button("FARM 300K", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Aisen11394/Autofarm/main/.lua"))()
 end)
 
 Section:Toggle("Toggle me", false, function(value)
