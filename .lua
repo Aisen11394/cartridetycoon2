@@ -2,7 +2,7 @@ local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/R
 
 --Create Window
 --Lib:CreateWindow(name,DefTab,WinSize,function)
-local Win = Lib:CreateWindow("ah",1,nil,nil)
+local Win = Lib:CreateWindow("CartRideTycoon2",1,500,nil)
 
 for i = 1, 1 do
 
