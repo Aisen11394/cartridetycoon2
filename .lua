@@ -23,7 +23,7 @@ for i = 1, i do
 --Returns UI
 --Tab:CreateButton(name,function)
 	
-Tab:CreateButton("AutoFarm🫡300K"..i,function()
+Tab:CreateButton("AutoFarm❤️300K"..i,function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aisen11394/Autofarm/main/.lua"))()
 	end)
 
