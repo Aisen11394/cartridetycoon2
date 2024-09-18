@@ -4,6 +4,8 @@ local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/R
 --Lib:CreateWindow(name,DefTab,WinSize,function)
 local Win = Lib:CreateWindow("ah",1,nil,nil)
 
+for i = 1, 1 do
+
 --Create Tab
 local Tab,name = Win:CreateTab("Tab "..tostring(i),function() warn(i) end)
 
@@ -21,7 +23,7 @@ for i = 1, i do
 --Returns UI
 --Tab:CreateButton(name,function)
 	
-Tab:CreateButton("AutoFarm🤫300K"..i,function()
+Tab:CreateButton("AutoFarm🫡300K"..i,function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aisen11394/Autofarm/main/.lua"))()
 	end)
 
